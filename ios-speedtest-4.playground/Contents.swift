@@ -6,21 +6,22 @@ import UIKit
 
 //MARK: for- in loop خمس مرات باستخدام ال "iOS" قم بطباعه
 var IOS : String
-for _ in 0... {
+for _ in 0...4 {
+    print("IOS")
     }
 
 //: # 2️⃣ function
 
 // MARK: هذي الداله تقوم بضرب رقمين و ترجع الناتج
 
-func Multiplication(  number1 : Int ,  number2 : Int) -> Int
+func Multiplication( _  number1 : Int , _ number2 : Int) -> Int
 {
     
     return number1 * number2
 }
 // MARK:   بما يناسب صيغه هذا الاستدعاء Multiplication قم بتعديل  الداله
 
-Multiplication(number1: 5,number2: 7)
+Multiplication( 5, 7)
 
 
 
